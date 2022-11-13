@@ -17,4 +17,3 @@ bool open_file(FILE** file, char* path, char* mode);
 * return true если файл успешно закрыт
 */
 bool close_file(FILE* const* file);
-

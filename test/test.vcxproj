@@ -19,28 +19,28 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="add_obj.c" />
-    <ClCompile Include="commands.c" />
-    <ClCompile Include="create_type.c" />
-    <ClCompile Include="delete_obj.c" />
-    <ClCompile Include="delete_type.c" />
-    <ClCompile Include="file_open_close.c" />
-    <ClCompile Include="get_obj.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="print.c" />
-    <ClCompile Include="template.c" />
+    <ClCompile Include="src\add_obj.c" />
+    <ClCompile Include="src\commands.c" />
+    <ClCompile Include="src\create_type.c" />
+    <ClCompile Include="src\delete_obj.c" />
+    <ClCompile Include="src\delete_type.c" />
+    <ClCompile Include="src\file_open_close.c" />
+    <ClCompile Include="src\get_obj.c" />
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\print.c" />
+    <ClCompile Include="src\template.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="add_obj.h" />
-    <ClInclude Include="commands.h" />
-    <ClInclude Include="create_type.h" />
-    <ClInclude Include="delete_obj.h" />
-    <ClInclude Include="delete_type.h" />
-    <ClInclude Include="file_open_close.h" />
-    <ClInclude Include="get_obj.h" />
-    <ClInclude Include="metaInfo.h" />
-    <ClInclude Include="print.h" />
-    <ClInclude Include="template.h" />
+    <ClInclude Include="includes\add_obj.h" />
+    <ClInclude Include="includes\commands.h" />
+    <ClInclude Include="includes\create_type.h" />
+    <ClInclude Include="includes\delete_obj.h" />
+    <ClInclude Include="includes\delete_type.h" />
+    <ClInclude Include="includes\file_open_close.h" />
+    <ClInclude Include="includes\get_obj.h" />
+    <ClInclude Include="includes\metaInfo.h" />
+    <ClInclude Include="includes\print.h" />
+    <ClInclude Include="includes\template.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

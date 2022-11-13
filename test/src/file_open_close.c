@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "file_open_close.h"
+#include "../includes/file_open_close.h"
 
 bool open_file(FILE** file, char* path, char* mode) {
     *file = fopen(path, mode);

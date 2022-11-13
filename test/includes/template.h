@@ -14,7 +14,7 @@ struct node {
 	enum node_type type;
 	struct node** childrens;
 	char* value;
-	
+
 };
 #pragma pack(pop)
 

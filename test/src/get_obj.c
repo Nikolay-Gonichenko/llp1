@@ -1,5 +1,5 @@
-#include "get_obj.h"
-#include "template.h"
+#include "../includes/get_obj.h"
+#include "../includes/template.h"
 
 /*
 * Создаёт путь до шаблона объекта из пути к объекту

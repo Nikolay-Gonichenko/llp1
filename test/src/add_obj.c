@@ -1,6 +1,6 @@
-#include "add_obj.h"
-#include "template.h"
-#include "metaInfo.h"
+#include "../includes/add_obj.h"
+#include "../includes/template.h"
+#include "../includes/metaInfo.h"
 
 
 /*

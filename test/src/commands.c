@@ -1,10 +1,10 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "commands.h"
-#include "add_obj.h"
-#include "create_type.h"
-#include "get_obj.h"
-#include "delete_obj.h"
-#include "delete_type.h"
+#include "../includes/commands.h"
+#include "../includes/add_obj.h"
+#include "../includes/create_type.h"
+#include "../includes/get_obj.h"
+#include "../includes/delete_obj.h"
+#include "../includes/delete_type.h"
 #include <string.h>
 
 bool is_exit(char* command) {
@@ -14,7 +14,7 @@ bool is_exit(char* command) {
 	return false;
 }
 
-char* do_command(char *command, char *arg) {
+char* do_command(char* command, char* arg) {
 	if (strcmp(command, "add_obj") == 0) {
 		add_obj(arg);
 	}
@@ -32,3 +32,4 @@ char* do_command(char *command, char *arg) {
 	}
 	return strcat(command, arg);
 }
+

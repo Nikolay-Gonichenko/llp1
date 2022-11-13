@@ -1,9 +1,9 @@
-#include "print.h"
+#include "../includes/print.h"
 
 /*
 * выбирает какое сообщение надо вывести дл€ ввода аргумента команды
 */
-static char* choose_arg(char * command) {
+static char* choose_arg(char* command) {
 	if (strcmp(command, "add_obj") == 0) {
 		return "¬ведите путь, куда хотите добавить объект";
 	}

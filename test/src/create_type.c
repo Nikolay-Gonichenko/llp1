@@ -1,5 +1,5 @@
-#include "create_type.h"
-#include "template.h"
+#include "../includes/create_type.h"
+#include "../includes/template.h"
 
 /*
 * Вставляет шаблон в дерево шаблонов
@@ -25,3 +25,4 @@ void create_type(char* name) {
 	put_template_into_tree();
 	write_template_to_file();
 }
+

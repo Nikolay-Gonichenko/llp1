@@ -1,4 +1,4 @@
-#include "delete_obj.h"
+#include "../includes/delete_obj.h"
 
 /*
 * Проверяет, не был ли ещё удалён объект

@@ -1,4 +1,4 @@
-#include "template.h"
+#include "../includes/template.h"
 
 /*
 * —читывает им€ свойства и его тип

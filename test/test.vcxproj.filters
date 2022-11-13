@@ -5,83 +5,77 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Файлы заголовков">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
     <Filter Include="Файлы ресурсов">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="src">
-      <UniqueIdentifier>{33ccdca0-e922-4c2e-aa35-5715a70b9cbb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{19199be1-fcf4-4bfd-926b-667abd88cb12}</UniqueIdentifier>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="add_obj.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\add_obj.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="commands.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\commands.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="create_type.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\create_type.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="delete_obj.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\delete_obj.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="delete_type.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\file_open_close.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="file_open_close.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\get_obj.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="get_obj.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\main.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\print.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="print.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\template.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="template.c">
-      <Filter>src</Filter>
+    <ClCompile Include="src\delete_type.c">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="add_obj.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\add_obj.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="commands.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\commands.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="create_type.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\create_type.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="delete_obj.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\delete_obj.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="delete_type.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\delete_type.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="file_open_close.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\file_open_close.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="get_obj.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\get_obj.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="metaInfo.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\metaInfo.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="print.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\print.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
-    <ClInclude Include="template.h">
-      <Filter>include</Filter>
+    <ClInclude Include="includes\template.h">
+      <Filter>Заголовочные файлы</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
